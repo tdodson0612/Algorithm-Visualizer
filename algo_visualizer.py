@@ -911,31 +911,6 @@ def draw_ternary_search(canvas, arr, highlights):
         y1 = 250
         canvas.create_rectangle(x0, y0, x1, y1, fill=color)
         canvas.create_text((x0 + x1)//2, y0 - 10, text=str(val))
-
-
-# Add these inside run_visualizer() after previous AlgoTabs:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     
 # Run GUI
 def run_visualizer():
